@@ -1,0 +1,6 @@
+Deploy Node.js Lambda Function with .zip file archives via AWS CLI
+
+Run Commands :
+
+windows :
+Compress-Archive -Path .\index.js -DestinationPath .\function.zip
