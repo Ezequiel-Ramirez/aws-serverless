@@ -1,0 +1,7 @@
+Invoking AWS Lambda with the AWS CLI
+Run Commands :
+aws lambda list-functions
+aws lambda get-function --function-name <your-function-name>
+
+Invoke Commands :
+aws lambda invoke --function-name <your-function-name> --cli-binary-format raw-in-base64-out --payload '{"key":"value"}' response.json
