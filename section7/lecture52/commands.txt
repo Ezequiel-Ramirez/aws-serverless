@@ -1,0 +1,21 @@
+Update AWS Lambda Functions Code using AWS CLI
+1- Develop lambda code to update one
+2- Zip the code
+3- update
+4-invoke to test
+
+1- Develop lambda code to update one
+index.js
+```javascript
+
+2- Zip the code
+Run Commands :
+Compress-Archive -Path .\index.js -DestinationPath .\function.zip
+
+3- update
+Run Commands :
+aws lambda update-function-code --function-name my-function2 --zip-file fileb://function.zip
+windows :
+aws lambda update-function-code `
+    --function-name my-function2 `
+    --zip-file fileb://function.zip
