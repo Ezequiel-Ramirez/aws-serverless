@@ -1,0 +1,12 @@
+
+{
+    "resource": "/product/{id}",
+    "httpMethod": "GET",
+    "path": "/product/1",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "pathParameters": {
+        "id": "1"
+    }
+}

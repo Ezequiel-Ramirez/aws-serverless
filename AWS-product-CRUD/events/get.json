@@ -1,0 +1,9 @@
+
+{
+    "resource": "/product",
+    "httpMethod": "GET",
+    "path": "/product",
+    "headers": {
+        "Content-Type": "application/json"
+    }
+}
